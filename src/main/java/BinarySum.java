@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /**
- * Solution for exercise: 2.1-4 (P-22/23)
+ * Solution for exercise: 2.1-4 (P-43/44)
  */
 public class BinarySum{
     public static void main(String[] args){
