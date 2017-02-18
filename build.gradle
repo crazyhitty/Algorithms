@@ -5,3 +5,9 @@ task runInsertionSort(type: JavaExec, dependsOn: ':build'){
     main="InsertionSort"
     standardInput = System.in
 }
+
+task runBinarySum(type: JavaExec, dependsOn: ':build'){
+    classpath sourceSets.main.runtimeClasspath
+    main="BinarySum"
+    standardInput = System.in
+}
